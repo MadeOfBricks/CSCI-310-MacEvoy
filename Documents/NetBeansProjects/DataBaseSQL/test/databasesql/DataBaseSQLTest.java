@@ -118,9 +118,8 @@ public class DataBaseSQLTest {
         String url = "jdbc:sqlite:C:/sqlite/db/forTest.db";
         instance.connectToDB(url);
         instance.insertData(url,name, capacity);
-        instance.selectDataName(url,name);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        instance.selectDataName(url, name);
+        
     }
 
     /**
